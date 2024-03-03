@@ -32,7 +32,7 @@ export default function App(): React.ReactElement {
         <Box sx={styles.parent}>
           <Box sx={styles.header}>
             <Avatar
-              src="/faktaalam.png"
+              src="/faktaalam/faktaalam.png"
               alt="fakta alam"
               sx={styles.avatar}
             />
