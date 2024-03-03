@@ -23,7 +23,8 @@ const styles = {
         minHeight: '100vh',
         display: 'flex',
         justifyContent: 'center',
-        bgcolor: 'background.paper'
+        bgcolor: 'background.paper',
+        color: 'text.primary'
     },
     button: {
         borderRadius,
