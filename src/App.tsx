@@ -73,10 +73,10 @@ export default function App(): React.ReactElement {
             variant="contained"
             sx={styles.button}
             startIcon={<FavoriteBorderIcon />}
-            href="https://www.buymeacoffee.com/xlance.official"
+            href="https://teer.id/xlance"
             fullWidth
           >
-            Support Us
+            Dukung Kami
           </Button>
 
           <Box sx={styles.footer}>
