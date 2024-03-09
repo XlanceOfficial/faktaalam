@@ -41,9 +41,9 @@ export default function App(): React.ReactElement {
   return (
     <ThemeProvider theme={theme}>
       <Box sx={styles.container}>
+        <SolarSystem />
+
         <Box sx={styles.parent}>
-          <SolarSystem />
-          
           <Box sx={styles.header}>
             <Avatar
               src="/faktaalam/faktaalam.png"
