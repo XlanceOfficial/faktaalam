@@ -7,12 +7,24 @@ import Link from '@mui/material/Link';
 import { createTheme, ThemeProvider } from '@mui/material/styles';
 
 import FavoriteBorderIcon from '@mui/icons-material/FavoriteBorder';
+import StarsIcon from '@mui/icons-material/Stars';
 
 import './App.css';
 
 
 
 
+
+function SolarSystem() {
+  return (
+    <div className="container">
+      <div className="matahari"></div>
+      <div className="bumi">
+          <div className="bulan"></div>
+      </div>
+    </div>
+  );
+}
 
 
 export default function App(): React.ReactElement {
@@ -30,6 +42,8 @@ export default function App(): React.ReactElement {
     <ThemeProvider theme={theme}>
       <Box sx={styles.container}>
         <Box sx={styles.parent}>
+          <SolarSystem />
+          
           <Box sx={styles.header}>
             <Avatar
               src="/faktaalam/faktaalam.png"
@@ -72,8 +86,18 @@ export default function App(): React.ReactElement {
           <Button
             variant="contained"
             sx={styles.button}
+            startIcon={<StarsIcon />}
+            href="https://trakteer.id/faktaalam/showcase"
+            fullWidth
+          >
+            Khusus VIP
+          </Button>
+
+          <Button
+            variant="contained"
+            sx={styles.button}
             startIcon={<FavoriteBorderIcon />}
-            href="https://teer.id/xlance"
+            href="https://trakteer.id/faktaalam/tip?open=true"
             fullWidth
           >
             Dukung Kami
