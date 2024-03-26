@@ -59,7 +59,7 @@ export default function App(): React.ReactElement {
           <Button
             variant="contained"
             sx={styles.button}
-            href="https://youtube.com/@FAKTAALAMSHORTS?sub_confirmation=1"
+            href="https://youtube.com/@faktaalamYT?sub_confirmation=1"
             fullWidth
           >
             Youtube
